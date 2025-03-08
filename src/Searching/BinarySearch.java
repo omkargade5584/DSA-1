@@ -1,5 +1,7 @@
+package Searching;
+
 public class BinarySearch {
-    int binarySearch(int arr[], int X)
+    int binarySearch(int[] arr, int X)
     {
         int low = 0, high = arr.length - 1;
     while (low <= high) {
@@ -18,8 +20,7 @@ public class BinarySearch {
     }
     public static void main(String[] args) {
         BinarySearch bs = new BinarySearch();
-        int arr[] = { 2, 3,4,10, 40};
-        int n=arr.length;
+        int[] arr = { 2, 3,4,10, 40};
         int x =10;
         int result=bs.binarySearch(arr,x);
         if (result == -1)

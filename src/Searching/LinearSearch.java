@@ -1,3 +1,5 @@
+package Searching;
+
 public class LinearSearch {
     public static int search(int[] arr, int N, int X)
     {
@@ -15,7 +17,7 @@ public class LinearSearch {
         if(result == -1)
             System.out.println("Element not found");
         else
-            System.out.println("Element found" + result);
+            System.out.println("Element found=" + result);
     }
 
 }

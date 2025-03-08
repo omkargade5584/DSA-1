@@ -2,9 +2,9 @@ package Sorting;
 
 public class SelectionSort {
     static void selectionSort(int arr[]) {
-        int n = arr.length;
+        int n = arr.length;  //store length of an array in n
 
-        for (int i = 0; i < n - 1; i++) { // Outer loop for each position
+        for (int i = 0; i < n - 1; i++) { // Outer loop for each position & this loop run up to n-2
             int minIndex = i;  // Assume the first element of the unsorted part is the minimum
 
             for (int j = i + 1; j < n; j++) {  // Inner loop to find the minimum element

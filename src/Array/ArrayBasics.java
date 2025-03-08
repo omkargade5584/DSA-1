@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package Array;
 
 public class ArrayBasics {
     //declaration of Array
@@ -20,10 +20,10 @@ public class ArrayBasics {
 
     //System.out.println(arr.length);  //Print length of the array
 
-    for(int=0; i<arr.length; i++ ){
-        System.out.println(arr[i]);
-    }
-    for (int num : arr){
-        System.out.println(num);
-    }
+    //for(int=0; i<arr.length; i++ ){
+    //    System.out.println(arr[i]);
+    //}
+    //for (int num : arr){
+    //    System.out.println(num);
+    //}
 }

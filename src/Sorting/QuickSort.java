@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+import java.util.Arrays;
 public class QuickSort {
 
     // Function to implement Quick Sort
